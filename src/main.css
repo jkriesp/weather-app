@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+
+body,
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  background-color: #e4dfda;
+  font-family: 'Montserrat', sans-serif;
+  color: #565151;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #e4dfda;
+}
+
+.topspace {
+  height: 100px;
+}
+
+.card {
+  position: relative;
+  width: 302px;
+  height: 537px;
+  border-radius: 20px;
+  margin: auto;
+  overflow: hidden;
+  background-blend-mode: multiply;
+
+}
+
+.domen {
+  background: url("./img/dome.png");
+  opacity: 0.2;
+  position: absolute;
+  overflow: hidden;
+  margin-top: 178px;
+  margin-left: -61px;
+  height: 106%;
+  width: 125%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+img {
+  background-blend-mode: multiply;
+  opacity: 0.2;
+}
+
+.sunny {
+  background-image: linear-gradient(#afddf4, #f6d99f);
+}
+
+.rainy {
+  background-image: linear-gradient(#8EC5FC, #E0C3FC);
+}
+
+.search {
+  margin: auto;
+  border-radius: 20px;
+}
+
+.search span{
+  display: table;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 37px;
+  padding-top: 15px;
+  letter-spacing: 2pt;
+}
+
+.sun_icon {
+  background: url("./img/sun.png") no-repeat center;
+  width: auto;
+  height: 250px;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.rain_icon {
+  background: url("./img/rain.png") no-repeat center;
+  width: auto;
+  height: 250px;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.cloud_icon {
+  background: url("./img/cloud.png") no-repeat center;
+  width: auto;
+  height: 250px;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.location {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2pt;
+}
+
+.temp {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2pt;
+}
+
+.w_desc {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+  letter-spacing: 1.2pt;
+}
+
+.shadow {
+  /* -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc; */
+  filter: drop-shadow(30px 30px 30px #ccc);
+}
